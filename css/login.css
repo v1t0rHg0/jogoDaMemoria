@@ -1,0 +1,55 @@
+/* object-fit = nao deixar a imagem deformada e ficar bonitinho */
+
+@import url("reset.css");
+
+.login__form{
+    background: url(../img/espiral.jpg) center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login__header{
+    display: grid;
+    place-items: center;
+    margin-bottom: 3rem;
+}
+
+img{
+    width: 230px;  
+}
+
+.login__header h1{
+    font-size: 2rem;
+    margin-top: 1rem;
+    text-shadow: 2px 2px #F40108, 3px 3px #000;
+}
+
+.login__input{
+    border: 2px solid #F40108;
+    width: 100%;
+    max-width: 350px;
+    padding: .6rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+.jogar{
+    width: 100%;
+    max-width: 350px;
+    padding: .6rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #922b2b;
+}
+
+.jogar:disabled{
+    color: #976767;
+    cursor: auto;
+    background-color: #aaa;
+}
